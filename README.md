@@ -1,7 +1,5 @@
-FEATool Multiphysics - _Physics Simulation Made Easy_
-=====================================================
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22266311.svg)](https://doi.org/10.5281/zenodo.22266311)
+FEATool Multiphysics - _"Physics Simulation Made Easy"_
+=======================================================
 
 ![FEATool Multiphysics Screenshot](screenshot.jpg)
 
@@ -9,72 +7,65 @@ About
 -----
 
 [**FEATool Multiphysics**](https://www.featool.com) (short for
-<b>F</b>inite <b>E</b>lement <b>A</b>nalysis <b>Tool</b>box), is a
-fully integrated simulation platform for modeling all types of coupled
-physics phenomena, continuum mechanics, and engineering problems.
+<b>F</b>inite <b>E</b>lement <b>A</b>nalysis <b>Tool</b>box) is a
+fully integrated simulation environment for modeling and solving
+coupled multi-physics and engineering problems.
 
-By providing a truly **easy-to-use** and integrated **all-in-one**
-simulation platform for multi-physics analysis, makes _FEATool_ an
-ideal simulation and modeling tool for everyone from students learning
-mathematical modeling, to researchers and engineers wishing to explore
-new ideas in a simple, easy, and convenient way.
+_FEATool_ combines geometry creation, meshing, physics definition,
+solvers, and postprocessing in a single **easy-to-use** toolbox. It is
+designed for engineers solving practical finite element analysis (FEA)
+and multiphysics problems, researchers developing and testing new
+ideas and models, and students learning mathematical modeling and
+numerical simulation.
 
 
 [Features](https://www.featool.com/featool-multiphysics-features/)
 --------
 
-- Fully integrated and easy-to-use Graphical User Interface (GUI)
-  with built-in tools for
-  + 1D, 2D, and 3D CAD geometry modeling
-  + Automatic FEA and CFD mesh generation
-  + State-of-the-art physics solvers
-  + Post-processing and visualization
-- One-click seamless integration to _state-of-the-art_ physics solvers
-  + [OpenFOAM® (CFD GUI)](https://www.featool.com/Easy-to-Use-OpenFOAM-GUI/)
-  + [FEniCS (FEA/Multiphysics)](https://www.featool.com/tutorial/2017/06/16/Python-Multiphysics-and-FEA-Simulations-with-FEniCS-and-FEATool/)
-  + [SU2 (CFD)](https://www.featool.com/doc/su2.html)
-- Pre-defined equations for
+- _GUI_ - Fully integrated and _easy-to-use_ Graphical User Interface
+- _Geometry_ - Built-in 1D, 2D, and 3D CAD geometry modeling
+- _Meshing_ - Automatic FEA and CFD mesh generation
+- _Physics_ - Predefined equations and multiphysics coupling for
   + [Heat and Mass Transfer](https://www.featool.com/multiphysics/#heat-and-mass-transfer)
   + [Fluid Dynamics (CFD)](https://www.featool.com/computational-fluid-dynamics-cfd-simulation-software/)
   + [Structural Mechanics](https://www.featool.com/multiphysics/#structural-mechanics)
   + [Electromagnetics](https://www.featool.com/multiphysics/#electromagnetics)
   + [Classical PDE](https://www.featool.com/multiphysics/#partial-differential-equations)
-- [User-defined and custom PDEs](https://www.featool.com/doc/physics.html#phys_ce)
-- Easy equation and expression parser (enter equations and coefficients
-  _like writing equations on paper_ without any programming)
-- Process, export, and share results and data online with
-  [ParaView and Plotly web plots](https://www.featool.com/web-plots/)
-- Fully programmable API and scriptable with Python and MATLAB®
-  (including support for integration and embedding of
-  simulation apps in custom applications and toolboxes)
-- Save and export models in
-  + Binary file format
-  + MATLAB® m-file format
-  + Python FEniCS simulation scripts
-  + GUI playback script format
+- _Solvers_ - Built-in and external multiphysics, FEA, and CFD solvers
+  + Built-in multiphysics solver
+  + [OpenFOAM® (CFD)](https://www.featool.com/Easy-to-Use-OpenFOAM-GUI/)
+  + [FEniCS (FEA/multiphysics)](https://www.featool.com/tutorial/2017/06/16/Python-Multiphysics-and-FEA-Simulations-with-FEniCS-and-FEATool/)
+  + [SU2 code (CFD)](https://www.featool.com/doc/su2.html)
+- _Post-processing_ - Visualization, analysis, and data export
+- _Customization_
+  + _Programming & Scripting_ - Fully programmable Python and MATLAB® APIs
+    - MATLAB® (.m file) script simulation models
+    - Python FEniCS simulation scripts
+  + _Custom Equations_ - [User-defined, custom PDE equations](https://www.featool.com/doc/physics.html#phys_ce), and nonlinear expressions
 
 
 [System Requirements](https://www.featool.com/doc/quickstart.html#prereq)
 -------------------
 
-_FEATool_ is a fully integrated simulation environment, which has been
-tested and verified to work with 64-bit Windows, Linux, and MacOS
-operating systems with a minimum of 4 GB RAM memory.
+_FEATool Multiphysics_ supports 64-bit Windows, Linux, and macOS
+operating systems. A minimum of 4 GB RAM is required, with 8 GB or
+more recommended for larger simulations.
 
 
 [Installation](https://www.featool.com/doc/quickstart.html#install)
 ------------
 
-In order to use _FEATool_, the software must first be installed on the
-intended computer system. It is recommended to first uninstall
-previous versions before installing/upgrading to a newer version.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22266311.svg)](https://doi.org/10.5281/zenodo.22266311)
 
-Please follow the steps below to install _FEATool_ as a stand-alone
-app, or as a MATLAB® toolbox. The installers can be downloaded
-directly from the
-[FEATool releases](https://github.com/precise-simulation/featool-multiphysics/releases/latest)
-and installed manually, or installed from the MATLAB® APPS and Add-On
-Toolbar as a toolbox.
+_FEATool Multiphysics_ can be installed either as a stand-alone
+application or as a MATLAB® toolbox. It is recommended to uninstall
+previous versions before installing or upgrading to a newer release.
+
+The installers for the latest (and previous) releases can be
+downloaded from the [FEATool
+releases](https://github.com/precise-simulation/featool-multiphysics/releases)
+page and installed manually. Alternatively, the MATLAB® toolbox can
+also be installed directly from the MATLAB® APPS and Add-On Toolbar.
 
 <p align="center">
   <a href="https://www.featool.com/download" target="_blank">
@@ -106,7 +97,7 @@ time to start.
 ### MATLAB® Toolbox Installation
 
 Follow the steps below to install _FEATool_ as a MATLAB® toolbox, and
-to enable running MATLAB® simulation m-scripts
+to enable running MATLAB® (.m file) simulation scripts
 
 1) Download the
    [FEATool_Multiphysics.mlappinstall](https://github.com/precise-simulation/featool-multiphysics/releases/latest/download/FEATool_Multiphysics.mlappinstall)
@@ -131,45 +122,43 @@ or completion.)
 [Tutorials and Examples](https://www.featool.com/doc/quickstart.html#tutorials_and_examples)
 ----------------------
 
-Automated modeling tutorials and examples for various multi-physics
-applications can be selected and run from the **File** > **Model
-Examples and Tutorials** menu option in the GUI.
+Automated modeling tutorials and examples for a wide range of
+multi-physics applications can be selected and run from the **File** >
+**Model Examples and Tutorials** menu option in the GUI.
 
-Example script files and simulation models are also available in the
+Example MATLAB® script files and simulation models are also available in the
 [_examples folder_](https://github.com/precise-simulation/featool-multiphysics/tree/master/examples)
-of the _FEATool_ program directory. Moreover, new tutorials and
-articles are frequently published on the
-[FEATool blog & technical articles](https://www.featool.com/post/).
+of the _FEATool_ program directory. Additional tutorials, examples,
+and technical articles are regularly published on the
+[FEATool blog](https://www.featool.com/post/).
 
 
 [Basic Use](https://www.featool.com/doc/quickstart.html#qs_work)
 ---------
 
-_FEATool_ and the GUI has been specifically designed to be as easy to
-use as possible, and making learning multiphysics simulation by
-experimentation easy.
+The _FEATool Multiphysics_ GUI has specifically been designed to be
+easy to use, and to make learning multiphysics simulation by
+experimentation fun and enjoyable.
 
-The standard modeling process is divided into six different steps or modes
+The standard modeling process is divided into six different steps, or modes:
 
-- **Geometry** - Definition of the geometry to be modeled
-- **Grid**     - Subdivision of the geometry into smaller grid cells
-                 suitable for computation
-- **Equation** - Specification of physics, material parameters, and coefficients
-- **Boundary** - Boundary conditions specify how the model interacts
-                 with the surrounding environment (outside of the geometry)
-- **Solve**    - Solution and simulation of the defined model problem
-- **Post**     - Visualization and postprocessing of simulation results
+- **Geometry** - Define the geometry to be modeled
+- **Grid**     - Generate a computational mesh (by subdividing the geometry)
+- **Equation** - Define physics, material properties, parameters, and coefficients
+- **Boundary** - Specify boundary conditions describing how the model
+                 interacts with its surroundings
+- **Solve**    - Solve and simulate the model
+- **Post**     - Visualize, analyze, and postprocess the simulation results
 
-These modes can be accessed by clicking on the corresponding buttons
-in left hand side _Mode_ toolbar. Each mode has specialized and
-different _Tools_ available in the toolbar that will be activated when
-selected. Additional and advanced mode options are also be available
-in the mode menus.
+The modes are accessed using the corresponding buttons in the
+left-hand _Mode_ toolbar. Each mode provides a specialized set of
+_Tools_, which are activated when the mode is selected. Additional
+and advanced options are available from the corresponding mode menus.
 
-Basic use and how to set up and model coupled fluid flow and
-temperature in a heat exchanger is explained in the
-[linked video tutorial](https://youtu.be/TBfVWgYbGTw)
-(click on the image below to start the tutorial).
+A basic example showing how to set up and solve coupled fluid flow and
+heat transfer in a heat exchanger is demonstrated in the [quickstart
+video tutorial](https://youtu.be/TBfVWgYbGTw) (click the image below
+to start the tutorial).
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=TBfVWgYbGTw" target="_blank">
@@ -182,9 +171,9 @@ temperature in a heat exchanger is explained in the
 Documentation
 -------------
 
-The
-[FEATool Documentation](https://www.featool.com/doc)
-is available online, and also by selecting the corresponding option in
+[FEATool Documentation](https://www.featool.com/doc) as well as the
+[FEATool user and discussion forum](https://forum.featool.com) are
+available online, and also by selecting the corresponding option in
 the _Help_ menu of the GUI.
 
 
@@ -203,11 +192,10 @@ products are not affiliated with, endorsed, or sponsored by these
 trademark owners.
 
 The license agreement for using FEATool Multiphysics™ is included with
-the distribution and can also be viewed by selecting
-_About FEATool..._ > _License Agreement_ from the _Help_ menu in the
-application.
+the distribution and can also be viewed by selecting _About FEATool..._
+> _License Agreement_ from the _Help_ menu in the application.
 
-Carefully read the license terms and conditions before installing or
+Read the license terms and conditions carefully before installing or
 using the programs or documentation. Installing or using the programs
 means you have accepted and agree to be bound by the terms and
 conditions of this agreement. if you do not accept them, uninstall,
