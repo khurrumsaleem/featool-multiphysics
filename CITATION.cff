@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "Please cite the software if you use FEATool Multiphysics in your work."
+title: "FEATool Multiphysics"
+type: software
+
+authors:
+  - name: "Precise Simulation"
+
+abstract: >
+  FEATool Multiphysics is a finite element analysis (FEA),
+  computational fluid dynamics (CFD), partial differential equations
+  (PDEs), and multiphysics simulation toolbox. It provides a fully
+  integrated graphical user interface (GUI) and programmable MATLAB
+  and Python workflows for geometry modeling, mesh generation, physics
+  and boundary condition definition, solving, postprocessing, and
+  visualization.  FEATool includes built-in finite element solvers and
+  interfaces to external solvers including OpenFOAM, FEniCS, and SU2
+  for multiphysics, CFD, and engineering simulations.
+
+keywords:
+  - multiphysics simulation
+  - finite element analysis (FEA)
+  - computational fluid dynamics (CFD)
+  - partial differential equations (PDE)
+  - MATLAB FEA toolbox
+  - MATLAB CFD toolbox
+  - Python multiphysics
+  - OpenFOAM GUI
+  - FEniCS GUI
+  - SU2
+  - engineering simulation
+  - computer aided engineering (CAE)
+  - continuum mechanics
+  - scientific computing
+
+repository-code: "https://github.com/precise-simulation/featool-multiphysics"
+url: "https://www.featool.com/"
+version: "1.18.1"
+date-released: "2026-07-15"
