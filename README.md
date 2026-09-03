@@ -191,7 +191,7 @@ specific release.
 License
 -------
 
-(C) Copyright 2013-__YEAR__ by Precise Simulation Limited.
+(C) Copyright 2013-2026 by Precise Simulation Limited.
 All Rights Reserved.
 
 FEATool Multiphysics™ is a trademark of Precise Simulation
