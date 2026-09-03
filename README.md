@@ -1,6 +1,8 @@
 FEATool Multiphysics - _"Physics Simulation Made Easy"_
 =======================================================
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22266311.svg)](https://doi.org/10.5281/zenodo.22266311)
+
 ![FEATool Multiphysics Screenshot](screenshot.jpg)
 
 About
@@ -54,8 +56,6 @@ more recommended for larger simulations.
 
 [Installation](https://www.featool.com/doc/quickstart.html#install)
 ------------
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22266311.svg)](https://doi.org/10.5281/zenodo.22266311)
 
 _FEATool Multiphysics_ can be installed either as a stand-alone
 application or as a MATLAB® toolbox. It is recommended to uninstall
@@ -137,8 +137,8 @@ and technical articles are regularly published on the
 ---------
 
 The _FEATool Multiphysics_ GUI has specifically been designed to be
-easy to use, and to make learning multiphysics simulation by
-experimentation fun and enjoyable.
+easy to use, and allowing users to learn multiphysics simulation
+through experimentation.
 
 The standard modeling process is divided into six different steps, or modes:
 
@@ -177,10 +177,21 @@ available online, and also by selecting the corresponding option in
 the _Help_ menu of the GUI.
 
 
+Citation
+--------
+
+When using _FEATool Multiphysics_ in research, please cite the specific
+software release used. Versioned releases are permanently archived on
+[Zenodo](https://doi.org/10.5281/zenodo.22266311). The concept DOI
+[10.5281/zenodo.22266311](https://doi.org/10.5281/zenodo.22266311)
+can be used to reference FEATool Multiphysics independently of a
+specific release.
+
+
 License
 -------
 
-(C) Copyright 2013-2026 by Precise Simulation Limited.
+(C) Copyright 2013-__YEAR__ by Precise Simulation Limited.
 All Rights Reserved.
 
 FEATool Multiphysics™ is a trademark of Precise Simulation
@@ -192,8 +203,8 @@ products are not affiliated with, endorsed, or sponsored by these
 trademark owners.
 
 The license agreement for using FEATool Multiphysics™ is included with
-the distribution and can also be viewed by selecting _About FEATool..._
-> _License Agreement_ from the _Help_ menu in the application.
+the distribution and can also be viewed by selecting
+_About FEATool..._ > _License Agreement_ from the _Help_ menu in the application.
 
 Read the license terms and conditions carefully before installing or
 using the programs or documentation. Installing or using the programs
