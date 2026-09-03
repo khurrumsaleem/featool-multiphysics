@@ -35,5 +35,6 @@ keywords:
 
 repository-code: "https://github.com/precise-simulation/featool-multiphysics"
 url: "https://www.featool.com/"
+doi: "10.5281/zenodo.22266312"
 version: "1.18.1"
 date-released: "2026-07-15"
