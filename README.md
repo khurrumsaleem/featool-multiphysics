@@ -1,6 +1,8 @@
 FEATool Multiphysics - _Physics Simulation Made Easy_
 =====================================================
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22266311.svg)](https://doi.org/10.5281/zenodo.22266311)
+
 ![FEATool Multiphysics Screenshot](screenshot.jpg)
 
 About
